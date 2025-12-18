@@ -19,6 +19,7 @@ public class calculator {
             case '+': result = num1 + num2; break;
             case '-': result = num1 - num2; break;
             case '*':result = num1 * num2; break;
+            case '/': result = num1 / num2; break;
             default: System.out.println("Invalid operator!"); return;
         }
         System.out.println("Result: " + result);
